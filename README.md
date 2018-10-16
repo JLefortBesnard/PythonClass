@@ -7,7 +7,7 @@ The .py files of the class I gave in sept-oct 2017 and oct-nov 2018
 ## Course information:
 Level: beginner
 Prerequisite: Nothing, but each class is important to understand the next one
-Needed: a computer with ipython and Atom installed (Anaconda package -free-)
+Needed: a computer with ipython and Atom installed (Anaconda package -free-) (see the file "python101_prerequisite.pdf" attached)
 Dates: Tuesday (2 to 4pm), Irtg room, from 16th October to mid-November 2018.
 
 ## Provisional syllabus:
