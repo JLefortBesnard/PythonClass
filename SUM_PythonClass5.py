@@ -1,10 +1,10 @@
-# as usual import all the module we will need
+# as usual, import all the modules we need
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-##### a bit of plotting with PYTHON ####
+# plotting with PYTHON #
 mean = [0, 0]
 cov = [[1, 2], [2, 5]]
 data = np.random.multivariate_normal(mean, cov, 50)
