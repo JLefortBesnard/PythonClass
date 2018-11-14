@@ -38,5 +38,5 @@ Linear algebra, standardize data, regression, classical statistics
 
 5. Data visualisation I
 Seaborn & Matplotlib: histograms, scatterplots
-+ exercices
++exercices
 
