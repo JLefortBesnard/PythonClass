@@ -23,20 +23,20 @@ vocabulary: list, string, integer, etc...;
 operations: boolean, if, for, and while loops, etc..
 +exercices
 Dig deeper: functions, class, etc...
-+exercices
++exercises
 
 3. Data manipulation
 Numpy array, pandas.Dataframe, saving, etc...
-+exercices
++exercises
 
 4. Data manipulation + Data analysis
 Dig deeper: manual cleaning of dataset, import .xls and .csv sets etc...;
 MRI datasets
 +exercices
 Linear algebra, standardize data, regression, classical statistics
-+exercices
++exercises
 
 5. Data visualisation I
 Seaborn & Matplotlib: histograms, scatterplots
-+exercices
++exercises
 
