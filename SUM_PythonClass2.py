@@ -16,9 +16,6 @@ print(my_status) # this print the raw elements
 # print it with sentences but it looks uggly
 print("Hi, I am ", my_status[1],", I am ", my_status[0], " years old, and I am a ", my_status[2], "in Aachen")
 
-# Beautiful way to print the sentence
-print("Hi, I am %s, I am %s years old, and I am a %s in Aachen") %(my_status[1], my_status[0], my_status[2])
-
 # Best programming way to print something:
 print("Hi, I am {}, I am {} years old, and I am a {} in Aachen").format(my_status[1], my_status[0], my_status[2])
 
@@ -77,9 +74,9 @@ print(my_number**2 > 3000) # if my variable squared is superior 3000, return Tru
 my_list = [34, 23, 12]
 my_list.append(7)
 my_list.append(1)
-user_choice = raw_input("enter a number: ")
+user_choice = input("enter a number: ")
 answer = int(user_choice) > sum(my_list)
-print ("Number higher than the sum of the list: %s") %(answer)
+print("Number higher than the sum of the list: {}".format(answer))
 
 
 ########### IF ELIF and ELSE ############
@@ -116,7 +113,7 @@ if my_number > 50 and my_number < 60: # The "if" statement works without the "el
 # create an if operation that prints "You're so young!" if his age is between 25 and 30,
 # "You're a baby" if it's under 25, otherwise, print "You're so old"
 
-user_age = int(raw_input("What s your age dude? "))
+user_age = int(input("What s your age dude? "))
 if 24 < user_age < 31:
     print("You're so young!")
 elif user_age < 25:
@@ -157,21 +154,21 @@ for i in My_string: # it can also be just a letter (this is usually the case)
  
  # for loop with fancy printing
 for letter in My_string:
-    print("letter: %s") %(letter) # print it at each iteration
+    print("letter: {}".format(letter)) # print it at each iteration
     print("-" * 20) # print 20 times the "-" at each iteration
  
  # increment
 i = 0
 for letter in My_string:
-    print("letter #%s => %s") %(i, letter)
+    print("letter {} => {}".format(i, letter))
     i += 1 # += increase at each iteration => basically means: i = i + 1 => read: the new value of i is equal to the old value of i + 1
  
 a = 0
 for letter in My_string: # we can use a if/else statement in a for loop
     if letter == " ": # at each iteration, the if/else statement will be checked by Python
-        print("letter #%s => space") %(a) # if the statement is true then this will be printed
+        print("letter #{} => space".format(a)) # if the statement is true then this will be printed
     else:
-        print("letter #%s => %s") %(a, letter) # if the statement is wrong then this will be printed
+        print("letter #{} => {}".format(a, letter)) # if the statement is wrong then this will be printed
     a += 1
  
  # for loop works with any kind of iterable element
@@ -199,7 +196,6 @@ for i in My_list:
     if type(i) == str:
         My_new_list.append(i)
  
-print("%s %s %s %s") %(My_new_list[0], My_new_list[1], My_new_list[2], My_new_list[3])
 print("{} {} {} {}".format(My_new_list[0], My_new_list[1], My_new_list[2], My_new_list[3]))
  
  ############ BREAK EXERCICE #########
@@ -215,7 +211,7 @@ for i in My_list:
     if type(i) == float:
         My_new_list.append(i)
  
-print("my floats are : %s %s") %(My_new_list[0], My_new_list[1])
+print("my floats are : {} {}".format(My_new_list[0], My_new_list[1]))
  
  #################################
  ########### FUNCTION ############
