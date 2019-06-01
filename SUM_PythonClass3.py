@@ -41,10 +41,10 @@ print(My_string[-12:]) # alternative
 # hint 2: a while loop works like a for loop, it stops only once you reach a certain points# ex
 # a = 0
 # while a < 6:
-#    print"hello"
+#    print("hello")
 #    a += 1
 
-# this will print "hello" 6 times and Python will stop automatically
+# this will print("hello") 6 times and Python will stop automatically
 # be careful though, this would end up into an infinite loop
 # ex:
 
