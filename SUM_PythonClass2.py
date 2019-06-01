@@ -23,7 +23,7 @@ print("Hi, I am {}, I am {} years old, and I am a {} in Aachen").format(my_statu
 my_age = input("Age= ?")
 my_name = input("Name= ?")
 my_status = input("Status= ?")
-print("Hi, I am %s, I am %s years old, and I am a %s in Aachen") %(my_name, my_age, my_status)
+print("Hi, I am {}, I am {} years old, and I am a {} in Aachen").format(my_name, my_age, my_status)
 
 
 """
